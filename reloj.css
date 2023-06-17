@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(to right, #1b0baf79, #4c13a7);
+}
+
+#contorno{
+    width: 30cap;
+    height: 23cap;
+    border-radius: 5%;
+    border: solid;
+    margin: 20px auto;
+    background:rgba(192, 192, 192, 0.733);
+box-shadow: -30px 30px 30px rgba(17, 1, 1, 0.733);
+}
+#contenedorHora{
+    border: solid;
+    width: 350px;
+    height: 100px;
+    margin: 30px auto;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.644)
+    
+}
+#contenedorFecha{
+    border: solid;
+    width: 350px;
+    height: 100px;
+    margin: 30px auto;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.644);
+    text-align: center;
+
+}
+
+.hora{
+    font-size: 48px;
+  position: relative;
+  left: 4%;
+  top: 15%;
+
+}
+span{
+    font-size: 30px;
+margin-left: 10px;
+}
+.fecha{
+    font-size: 30px;
+    margin-top: 10px;
+}
+h1{
+ text-align: center;
+
+ font-variant: small-caps;
+ text-shadow: -3px 3px 7px rgba(17, 1, 1, 0.733);
+
+}
+
+@media only screen and (max-width: 499px) {
+
+    #contorno{
+        width: 90%;
+    }
+    #contenedorHora,#contenedorFecha{
+        width: 80%;
+    }
+    .hora,.fecha{
+        font-size: 190%;
+    }
+    #mes{
+        display: none;
+    }
+}
